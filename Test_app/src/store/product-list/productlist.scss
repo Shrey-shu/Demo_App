@@ -1,0 +1,21 @@
+.list {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    .title {
+        font-size: 2rem;
+        margin: 1rem;
+    }
+    .products{
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 1rem;
+        margin: 1rem;
+        padding: 0.5rem;
+        background-color: antiquewhite;
+        
+    }
+
+    .products:hover{
+        background-color: rgb(245, 214, 174);
+    }
+}

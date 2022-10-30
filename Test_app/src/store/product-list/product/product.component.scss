@@ -1,0 +1,23 @@
+.products {
+
+    margin: 1rem;
+
+    .productName {
+        color: rgb(76, 131, 250);
+        font-size: 1.25rem;
+        padding: 0.5rem;
+    }
+
+    .shareButton {
+        width: 2.5rem;
+        border: 1px solid black;
+        color: white;
+        background-color: rgb(76, 131, 250);
+        padding: 0.75rem;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+    .productDesc{
+        padding: 0.25rem;
+    }
+}
